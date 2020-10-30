@@ -1,3 +1,4 @@
+
 import React from "react";
 import PropTypes from "prop-types";
 import "./Button.css";
@@ -17,7 +18,7 @@ export default class Button extends React.Component {
   render() {
     const className = [
       "component-button",
-      this.props.orange ? "orange" : "",
+      this.props.orange ? "green" : "red",
       this.props.wide ? "wide" : "",
     ];
 
